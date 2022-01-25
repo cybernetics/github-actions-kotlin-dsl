@@ -1,0 +1,4 @@
+naming:
+  ClassNaming:
+    classPattern: '^.+V\d+$'
+    includes: ['**/main/kotlin/it/krzeminski/githubactions/actions/**']

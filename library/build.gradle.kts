@@ -40,6 +40,11 @@ java {
     withSourcesJar()
 }
 
+detekt {
+    buildUponDefaultConfig = true
+    config = files("$projectDir/detekt.yml")
+}
+
 val githubUser = "krzema12"
 val libraryName = "github-actions-kotlin-dsl"
 
